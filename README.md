@@ -2,7 +2,7 @@
 
 `Usage: currencies.py [-h] [-o [OUTPUT]] [-v]`<br/>
 
-Create a csv of currencies from www.coinbase.<br/> 
+Create a csv of currencies from www.coinbase.com<br/> 
 
 Use:<br/>
 `.import "| tail - n + 2 currencies.csv" mytable` to import in sqllite.
