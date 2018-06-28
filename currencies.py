@@ -18,7 +18,7 @@ def main():
     signal.signal(signal.SIGINT, signal_handler)
 
     parser = argparse.ArgumentParser(
-        description="""Create a csv of currencies from www.coinbase.
+        description="""Create a csv of currencies from www.coinbase.com
                         Use .import "| tail - n + 2 currencies.csv"
                         onboardingclient_currencytypes to import in sqllite."""
     )
