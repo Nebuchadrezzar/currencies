@@ -28,4 +28,12 @@ A free API key affords you only pulling EUR daily rates. A paid account will all
 in other Base currencies without error.    
 
 
+#### Their pipechain
+
+  `for baseCurr in $(./currencies.py -v | cut -d ' ' -f1); do rates.py -b $baseCurr; done`<br/>
+
+Which creates two CSVs:<br/>
+the first containing all 168 world currencies, the second ~30K rows of exchanges rates for all currency pairs.
+
+
   
